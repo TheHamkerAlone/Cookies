@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import requests
 
-app = Client("cookie_checker_bot", api_id=28620311, api_hash="3b5c4ed0598e48fc1ab552675555e693", bot_token="8684479905:AAFVyoYqqtRYjj-MAwCOqXmVih6Qc3n3QIQ")
+app = Client("CheckCookiesBot", api_id=28620311, api_hash="3b5c4ed0598e48fc1ab552675555e693", bot_token="8684479905:AAFVyoYqqtRYjj-MAwCOqXmVih6Qc3n3QIQ")
 
 # Function to check YouTube cookie validity
 def check_youtube_cookie(cookies):
